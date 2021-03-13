@@ -26,7 +26,7 @@ public class Main {
         try {
             cuenta1.retirar(2300);
         } catch (Exception e) {
-            System.out.print("Fallo al retirar");
+            System.out.print("Error al retirar el dinero");
         }
         try {
             System.out.println("Ingreso en cuenta");
